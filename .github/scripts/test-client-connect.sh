@@ -174,7 +174,7 @@ portablemc_cmd=(
   --main-dir "$CLIENT_DIR/.minecraft"
   start "$selected_target"
   -u "$USERNAME"
-  --jvm-arg=-Xmx8G,-Xms8G
+  --jvm-arg=-Xmx8G,-Xms8G,-Djava.awt.headless=true
   --join-server "$SERVER_HOST"
   --join-server-port "$SERVER_PORT"
 )
