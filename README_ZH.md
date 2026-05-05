@@ -1,50 +1,40 @@
 <div align="center">
 
-# Modpack Template - Pakku
+# 模块化整合包：农业
 
-基于 [Pakku](https://github.com/juraj-hrivnak/Pakku) 的整合包模板, 提供整合包自动构建、测试与发布。
+一个专注于农业的整合包模块。
 
 [English](README.md) / [简体中文](README_ZH.md)
 
-![Counter](https://count.getloli.com/@MPT-P?name=MPT-P&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
+![Counter](https://count.getloli.com/@MM-A?name=MM-A&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
 
 </div>
 
-## 特性
+## 介绍
 
-- 自动验证 json 与 toml 文件
-- 自动构建整合包的服务端与客户端
-- 自动测试整合包的服务端与客户端
-- 自动测试客户端能否正常连接服务端
-- 提供基于分发源码的轻量化服务端
+模块化整合包专注于某个主题的模组，并致力于解决这些相似主题模组之间的兼容性。模块化整合包不应该被直接使用，而应该作为自组包、发布整合包或服务器整合包的一部分。
 
 ## 使用
 
-### Pakku
+直接 Fork 本项目，或者安装这个整合包后将必要的文件移动到你的整合包内。注意模块化整合包需要一些必要的 Lib 模组以构建，因此你应该在你的整合包中去除这些重复的模组。
 
-参考 [https://juraj-hrivnak.github.io/Pakku/home.html](https://juraj-hrivnak.github.io/Pakku/home.html)。
+如果你只是想游玩这些模组，你需要一些基础整合包，如 超现代优化 或 浅忆基础整合，将所有文件复制到这些整合包中。
 
-### Github Action
+## 模组标准
 
-#### 自动构建 & 测试
+### 通用标准
 
-- 当整合包内容有实质性变更时，Action 会自动触发，包括 `pakku.json`，`pakku-lock.json` 或 `.pakku/` 中的更改。
-- Action 会检验 `.pakku/` 文件夹中的 json 与 toml 文件，你可以配置 `exclude.txt` 来决定哪些文件不被检查。
-- 随后构建整合包与服务端，在 `build` tag 下发布。
-- 最终启动服务端与客户端进行测试。
+- 在 Curseforge 上发布。只在 Modrinth 上发布的模组难以支持。
+- 不使用 MCreator 制作。
+- 开源。闭源模组需要验证其稳定性。
+- 尽可能积极维护。
 
-#### 发布
+### 本模块标准
 
-- 你必须手动在 Github Action 触发脚本。
-- Action 将会自动解析版本并进行发布。
-- 如果你想自动将整合包发布至 Curseforge or Modrinth，参阅 [Kir-Antipov/mc-publish](https://github.com/marketplace/actions/mc-publish) 对 [发布脚本](.github/workflows/build.yml) 进行修改。
+- KubeJS 和 Rhino。
+- 具有农业相关内容，或为必要的 Lib mod。
+- 以非农业或 Lib 模组为前置的模组将不被接受，如 暮色风味乐事。
 
 ## 协议
 
-MIT License
-
-## 特别感谢
-
-- [Pakku](https://github.com/juraj-hrivnak/Pakku)
-- [PortableMC](https://github.com/theorzr/portablemc)
-- [CTNH](https://github.com/CTNH-Team/Create-New-Horizon)
+AGPL-3

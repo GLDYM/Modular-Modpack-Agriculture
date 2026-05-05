@@ -1,53 +1,2047 @@
 {
     "target": "multiplatform",
     "mc_versions": [
-        "26.1.1"
+        "1.21.1"
     ],
     "loaders": {
-        "neoforge": "26.1.1.6-beta"
+        "Neoforge": "",
+        "neoforge": "21.1.226"
     },
     "projects": [
         {
-            "pakku_id": "aIwqUkfMsD7269J4",
+            "pakku_id": "BiCjv97003mujkXe",
             "type": "MOD",
-            "side": "BOTH",
             "slug": {
-                "curseforge": "jei",
-                "modrinth": "jei"
+                "curseforge": "bakeries"
             },
             "name": {
-                "curseforge": "Just Enough Items (JEI)",
-                "modrinth": "Just Enough Items (JEI)"
+                "curseforge": "Bakeries"
             },
             "id": {
-                "curseforge": "238222",
-                "modrinth": "u6dRKJwZ"
+                "curseforge": "1191781"
             },
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "jei-26.1.1-neoforge-29.3.0.22.jar",
+                    "file_name": "bakeries-1.21.1-NeoForge-1.0.0-beta4.jar",
                     "mc_versions": [
-                        "26.1",
-                        "26.1.1"
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7914/995/bakeries-1.21.1-NeoForge-1.0.0-beta4.jar",
+                    "id": "7914995",
+                    "parent_id": "1191781",
+                    "hashes": {
+                        "sha1": "5d1c66e6d1bc4ea51532782e37a69fc0ac63dd7d",
+                        "md5": "60ffa917631fa87e02388f714fbc3f0b"
+                    },
+                    "required_dependencies": [],
+                    "size": 2451334,
+                    "date_published": "2026-04-12T10:58:54.747Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "iTsQxd5BpVKkpml1",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "barbeques-delight",
+                "modrinth": "barbeques-delight"
+            },
+            "name": {
+                "curseforge": "Barbeque's Delight [Forge/NeoForge]",
+                "modrinth": "Barbeque‘s Delight"
+            },
+            "id": {
+                "curseforge": "1007788",
+                "modrinth": "c9qdJjaq"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "barbequesdelight-1.3.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8004/721/barbequesdelight-1.3.0.jar",
+                    "id": "8004721",
+                    "parent_id": "1007788",
+                    "hashes": {
+                        "sha1": "b69ee6fdd97d0d01eb0a6e9996912457226da909",
+                        "md5": "66dfe9fa636d93812b2297751ec1d736"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 847092,
+                    "date_published": "2026-04-28T11:13:04.177Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "lwcSDJ2orusmJYRS",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "brewin-and-chewin",
+                "modrinth": "brewin-and-chewin"
+            },
+            "name": {
+                "curseforge": "Brewin' And Chewin'",
+                "modrinth": "Brewin' And Chewin'"
+            },
+            "id": {
+                "curseforge": "637808",
+                "modrinth": "hIu9KJTT"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "BrewinAndChewin-neoforge-4.4.2+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7523/542/BrewinAndChewin-neoforge-4.4.2+1.21.1.jar",
+                    "id": "7523542",
+                    "parent_id": "637808",
+                    "hashes": {
+                        "sha1": "c01b9e39b4c116c3ce4b1b66f87c1921997337a5",
+                        "md5": "be14ed36a350594d0bac22bcf1810556"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 1566859,
+                    "date_published": "2026-01-25T10:36:26.820Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "BrewinAndChewin-neoforge-4.4.2+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/hIu9KJTT/versions/CKLYp96Y/BrewinAndChewin-neoforge-4.4.2+1.21.1.jar",
+                    "id": "CKLYp96Y",
+                    "parent_id": "hIu9KJTT",
+                    "hashes": {
+                        "sha512": "ca6db594cc244307041b9f896956ad7dcba4727c62609a30aef9f913f5513238b7c898ecc39d4599385bdd177dea5c5de3149da34ab086217a307ab3f3e5aa06",
+                        "sha1": "c01b9e39b4c116c3ce4b1b66f87c1921997337a5"
+                    },
+                    "required_dependencies": [],
+                    "size": 1566859,
+                    "date_published": "2026-01-25T10:36:25.690249Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "kQwxVUkIRZUgixTF",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "calypsos-candy-workshop",
+                "modrinth": "calypsos-candy-workshop"
+            },
+            "name": {
+                "curseforge": "Calypso's Candy Workshop",
+                "modrinth": "Calypso's Candy Workshop"
+            },
+            "id": {
+                "curseforge": "1266919",
+                "modrinth": "zCKDP104"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ccw-v1.3.0-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7746/760/ccw-v1.3.0-mc1.21.1.jar",
+                    "id": "7746760",
+                    "parent_id": "1266919",
+                    "hashes": {
+                        "sha1": "ca780e78edc6c502815546b63e8eb438f44b9c30",
+                        "md5": "5d4edad4031a91a2dc08f468402eb688"
+                    },
+                    "required_dependencies": [],
+                    "size": 702718,
+                    "date_published": "2026-03-12T12:34:38.783Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "ccw-v1.3.0-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/zCKDP104/versions/dTEw59hT/ccw-v1.3.0-mc1.21.1.jar",
+                    "id": "dTEw59hT",
+                    "parent_id": "zCKDP104",
+                    "hashes": {
+                        "sha512": "1ae2f0afc6b8efb3be4c6375d6feae054d755578e521f071aee3f5fdbb887028ee6a08cb30cc970b1849a64c7244bb65f0aa792631fe2f517691d080106201bd",
+                        "sha1": "ca780e78edc6c502815546b63e8eb438f44b9c30"
+                    },
+                    "required_dependencies": [],
+                    "size": 702718,
+                    "date_published": "2026-03-12T12:34:41.343286Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "6B1AnhcJ5QDPnCHl",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "casualness-delight",
+                "modrinth": "casualness-delight"
+            },
+            "name": {
+                "curseforge": "Casualness Delight",
+                "modrinth": "Casualness Delight"
+            },
+            "id": {
+                "curseforge": "909519",
+                "modrinth": "zYuGPZIx"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "casualnessdelight-0.6.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7861/613/jei-26.1.1-neoforge-29.3.0.22.jar",
-                    "id": "7861613",
-                    "parent_id": "238222",
+                    "url": "https://edge.forgecdn.net/files/7467/708/casualnessdelight-0.6.jar",
+                    "id": "7467708",
+                    "parent_id": "909519",
                     "hashes": {
-                        "sha1": "9da858d9fc9bd5bdaa1c357fe3e71e9ab5cc1f15",
-                        "md5": "602f651524584f34621a05300e4728cb"
+                        "sha1": "fd62f6085fbc55e4274a77eaaa9d896233b0aaac",
+                        "md5": "68cb616dc41387a2b881fb346072a223"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 300008,
+                    "date_published": "2026-01-16T09:05:24.550Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "yjAll5hAOlcIYvIU",
+            "pakku_links": [
+                "AnvGuTdbvBGB1wZF",
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "corn-delight",
+                "modrinth": "corn-delight"
+            },
+            "name": {
+                "curseforge": "Corn Delight[Forge]",
+                "modrinth": "Corn Delight"
+            },
+            "id": {
+                "curseforge": "577805",
+                "modrinth": "uxLAKWU8"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "corn_delight-1.2.10-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8021/963/corn_delight-1.2.10-1.21.1.jar",
+                    "id": "8021963",
+                    "parent_id": "577805",
+                    "hashes": {
+                        "sha1": "644fa3a8a9ea1be375c1aefff5cf919e36a7835f",
+                        "md5": "903f34a4f2bc5606706d69d87b8da2f6"
+                    },
+                    "required_dependencies": [
+                        "368098",
+                        "398521"
+                    ],
+                    "size": 165038,
+                    "date_published": "2026-05-01T16:45:35.007Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "corn_delight-1.2.10-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/uxLAKWU8/versions/JtT5ioNz/corn_delight-1.2.10-1.21.1.jar",
+                    "id": "JtT5ioNz",
+                    "parent_id": "uxLAKWU8",
+                    "hashes": {
+                        "sha512": "75a5a95874b218942820ffc1e17663ff2e8053916233e4975c92457271cf603a80228798cb1b9d1400e1db175031ef92695fa1de9e66497cb8bb5d32b6cb03a6",
+                        "sha1": "644fa3a8a9ea1be375c1aefff5cf919e36a7835f"
+                    },
+                    "required_dependencies": [
+                        "R2OftAxM",
+                        "ntMyNH8c"
+                    ],
+                    "size": 165038,
+                    "date_published": "2026-05-01T16:44:15.810552Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "lNchkAmlRFFWbkB4",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "crabbers-delight",
+                "modrinth": "crabbers-delight"
+            },
+            "name": {
+                "curseforge": "Crabber's Delight",
+                "modrinth": "Crabber's Delight"
+            },
+            "id": {
+                "curseforge": "892827",
+                "modrinth": "gBGdVBJy"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "crabbersdelight-1.21.1-1.2.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8006/190/crabbersdelight-1.21.1-1.2.6.jar",
+                    "id": "8006190",
+                    "parent_id": "892827",
+                    "hashes": {
+                        "sha1": "ca13cbc55ff56b8453a2e8882221e7a7be39f117",
+                        "md5": "2d7e5c81f3b43b375190c8d86c7ccfeb"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 634794,
+                    "date_published": "2026-04-28T17:30:16.877Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "crabbersdelight-1.21.1-1.2.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/gBGdVBJy/versions/uwSpUkrQ/crabbersdelight-1.21.1-1.2.6.jar",
+                    "id": "uwSpUkrQ",
+                    "parent_id": "gBGdVBJy",
+                    "hashes": {
+                        "sha512": "26225d7926c0cc45a58de75ca89ec8c4b6f6bdcc03a76918ffc5094ee52fb9d0c38040213af37ee41c22494fafeaf5b862591f47523c497632425f18b3dde434",
+                        "sha1": "ca13cbc55ff56b8453a2e8882221e7a7be39f117"
                     },
                     "required_dependencies": [],
-                    "size": 1497203,
-                    "date_published": "2026-04-02T13:03:37.707Z"
+                    "size": 634794,
+                    "date_published": "2026-04-28T17:30:39.624786Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "jdB0sbUeejiTGZJW",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "crate-delight",
+                "curseforge": "crate-delight-forge"
+            },
+            "name": {
+                "modrinth": "Crate Delight",
+                "curseforge": "Crate Delight (Forge & Neoforge)"
+            },
+            "id": {
+                "modrinth": "9rlXSyLg",
+                "curseforge": "958291"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "cratedelight-25.09.22-1.21-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/9rlXSyLg/versions/YYynf5qc/cratedelight-25.09.22-1.21-neoforge.jar",
+                    "id": "YYynf5qc",
+                    "parent_id": "9rlXSyLg",
+                    "hashes": {
+                        "sha512": "bc1618b6c9d38386f4df4c60ef1cc18447b9967ac7ca30e9012c7f771d2f6098c1873a9a974c8b728110e68e5561e25ba9b1e047c6373a1c3191aae825001e41",
+                        "sha1": "3cfe8feb1962e0b69d7a47e44458533489d62e4d"
+                    },
+                    "required_dependencies": [],
+                    "size": 166931,
+                    "date_published": "2025-09-23T04:06:34.088077Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "cratedelight-25.09.22-1.21-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7024/451/cratedelight-25.09.22-1.21-neoforge.jar",
+                    "id": "7024451",
+                    "parent_id": "958291",
+                    "hashes": {
+                        "sha1": "3cfe8feb1962e0b69d7a47e44458533489d62e4d",
+                        "md5": "94869d38883f5e92b9ed61cd7809ee34"
+                    },
+                    "required_dependencies": [],
+                    "size": 166931,
+                    "date_published": "2025-09-23T03:55:01.333Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "6bnOaiHSNiJIbhDg",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "some-assembly-required",
+                "modrinth": "some-assembly-required"
+            },
+            "name": {
+                "curseforge": "Create: Some Assembly Required",
+                "modrinth": "Create: Some Assembly Required"
+            },
+            "id": {
+                "curseforge": "422951",
+                "modrinth": "jZi8ogTA"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "someassemblyrequired-5.2.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7701/961/someassemblyrequired-5.2.8.jar",
+                    "id": "7701961",
+                    "parent_id": "422951",
+                    "hashes": {
+                        "sha1": "5e7fc02b85c7c6f128bdebd65b6133734fce7088",
+                        "md5": "f64d8b98fa4047253c3ba0ea99ec9811"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 451898,
+                    "date_published": "2026-03-02T17:41:31.937Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "someassemblyrequired-5.2.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/jZi8ogTA/versions/G8Lz8Txm/someassemblyrequired-5.2.8.jar",
+                    "id": "G8Lz8Txm",
+                    "parent_id": "jZi8ogTA",
+                    "hashes": {
+                        "sha512": "de9c76595188852b187718aaf6287a6057e4135b5f45dfe9201b302ccdd0a5cf967314e1025c305b4fdcbcc94d1dcab8a379e8488f6adedbf3e9eb2f959ff9cc",
+                        "sha1": "5e7fc02b85c7c6f128bdebd65b6133734fce7088"
+                    },
+                    "required_dependencies": [
+                        "R2OftAxM"
+                    ],
+                    "size": 451898,
+                    "date_published": "2026-03-02T17:40:48.244006Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "JwdExHDjuGKXArqM",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "cuisine-delight",
+                "modrinth": "cuisine-delight"
+            },
+            "name": {
+                "curseforge": "Cuisine Delight",
+                "modrinth": "Cuisine Delight"
+            },
+            "id": {
+                "curseforge": "893541",
+                "modrinth": "gOQjCAAD"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cuisinedelight-1.2.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8004/724/cuisinedelight-1.2.8.jar",
+                    "id": "8004724",
+                    "parent_id": "893541",
+                    "hashes": {
+                        "sha1": "8363f4dcaf1c24bce964ed3a4c02d0f2f3f23b6a",
+                        "md5": "3e348c63501764ace672648de7a4c250"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 922021,
+                    "date_published": "2026-04-28T11:13:14.957Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "cuisinedelight-1.2.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/gOQjCAAD/versions/Ngn5DVCK/cuisinedelight-1.2.8.jar",
+                    "id": "Ngn5DVCK",
+                    "parent_id": "gOQjCAAD",
+                    "hashes": {
+                        "sha512": "c2d4637167a2a6a661fa0535c61ee073de1175d9f42ba9f6432f20fabc3b95c4384a6437b5c8f205d5d495b550bc55cbb655bb1c69c92dfec57a67c497a7fb57",
+                        "sha1": "002c999dae4d760e6293c796d08c8d8de0cf5fcd"
+                    },
+                    "required_dependencies": [
+                        "R2OftAxM"
+                    ],
+                    "size": 922022,
+                    "date_published": "2026-04-28T11:14:05.062577Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "nZm3ZpPpQfaU7840",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "delighto-flight"
+            },
+            "name": {
+                "curseforge": "Delight o' Flight"
+            },
+            "id": {
+                "curseforge": "1347014"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "DelightoFlight-1.21.1-1.3.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8012/635/DelightoFlight-1.21.1-1.3.4.jar",
+                    "id": "8012635",
+                    "parent_id": "1347014",
+                    "hashes": {
+                        "sha1": "3d4d4fe785bb7f4626fe724220e2025bf9514e98",
+                        "md5": "ce6c11ef10bf5d19355ced7d71bb164c"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 577922,
+                    "date_published": "2026-04-30T01:08:27.750Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ZMidoeSczBj8iCdn",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "display-delight",
+                "modrinth": "display-delight"
+            },
+            "name": {
+                "curseforge": "Display Delight",
+                "modrinth": "Display Delight"
+            },
+            "id": {
+                "curseforge": "1144296",
+                "modrinth": "yXepZhp8"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "displaydelight-1.5.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7948/38/displaydelight-1.5.2.jar",
+                    "id": "7948038",
+                    "parent_id": "1144296",
+                    "hashes": {
+                        "sha1": "bdae3416c296b4953518d3b06180277bc7c5994a",
+                        "md5": "904760c7236f991d284842c5cc1e3a34"
+                    },
+                    "required_dependencies": [],
+                    "size": 1044065,
+                    "date_published": "2026-04-19T01:38:19.210Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "displaydelight-1.5.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/yXepZhp8/versions/pU6Dxie9/displaydelight-1.5.2.jar",
+                    "id": "pU6Dxie9",
+                    "parent_id": "yXepZhp8",
+                    "hashes": {
+                        "sha512": "35244906b6c09b9c237c7f753cd88b4e4b988e1c37022a6db8873e8a6d8b6a2d725c820c89ed9f13c80f3e4dd4533bf79a4e9d667567686854d9aecc0f60f5ae",
+                        "sha1": "bdae3416c296b4953518d3b06180277bc7c5994a"
+                    },
+                    "required_dependencies": [],
+                    "size": 1044065,
+                    "date_published": "2026-04-20T05:28:22.001033Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "S1JYEnbgaLQBRp4e",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "ends-delight",
+                "modrinth": "ends-delight"
+            },
+            "name": {
+                "curseforge": "End's Delight",
+                "modrinth": "End's Delight"
+            },
+            "id": {
+                "curseforge": "662675",
+                "modrinth": "yHN0njMr"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ends_delight-2.5.1+neoforge.1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6180/429/ends_delight-2.5.1+neoforge.1.21.1.jar",
+                    "id": "6180429",
+                    "parent_id": "662675",
+                    "hashes": {
+                        "sha1": "22b63e1c852fbbedb9f7add64990fd9f8eca0787",
+                        "md5": "584c94b7b4c7b46a67059f8b4b982522"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 263222,
+                    "date_published": "2025-02-11T02:28:43.370Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "ends_delight-2.5.1+neoforge.1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/yHN0njMr/versions/YxSK1qNm/ends_delight-2.5.1+neoforge.1.21.1.jar",
+                    "id": "YxSK1qNm",
+                    "parent_id": "yHN0njMr",
+                    "hashes": {
+                        "sha512": "c36b4a7ac0d55bf18506846ae01dbfb3d89b9333d334d309319346b632aac55441240f8b766ab52b1e497d96d47a5ad8d357af7f5a763473f05ce0fe1b861814",
+                        "sha1": "22b63e1c852fbbedb9f7add64990fd9f8eca0787"
+                    },
+                    "required_dependencies": [
+                        "R2OftAxM"
+                    ],
+                    "size": 263222,
+                    "date_published": "2025-02-11T02:22:38.022522Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "H2ixwzkfwLMM0rwj",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "extradelight",
+                "modrinth": "extradelight"
+            },
+            "name": {
+                "curseforge": "Extra Delight",
+                "modrinth": "ExtraDelight"
+            },
+            "id": {
+                "curseforge": "842106",
+                "modrinth": "yRrY3XII"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "extradelight-2.6.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8035/753/extradelight-2.6.5.jar",
+                    "id": "8035753",
+                    "parent_id": "842106",
+                    "hashes": {
+                        "sha1": "d5c1343c7e7588ba832ad42bccfa57b3dc1ec4b1",
+                        "md5": "79c3695b869ed5eea159db616f014faf"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 10954348,
+                    "date_published": "2026-05-04T01:58:10.270Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "extradelight-2.6.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/yRrY3XII/versions/XntyupDn/extradelight-2.6.5.jar",
+                    "id": "XntyupDn",
+                    "parent_id": "yRrY3XII",
+                    "hashes": {
+                        "sha512": "567113086ca971b761e926357e784968ac7dfa2b43d7b20c21390ece27d57ec59d90255d35922eedfc1fd34832062484d34d18188d7d57995af1d825787388c0",
+                        "sha1": "d5c1343c7e7588ba832ad42bccfa57b3dc1ec4b1"
+                    },
+                    "required_dependencies": [],
+                    "size": 10954348,
+                    "date_published": "2026-05-04T01:59:07.087487Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "exCP2y0syJVA9jKo",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "farmers-delight",
+                "modrinth": "farmers-delight"
+            },
+            "name": {
+                "curseforge": "Farmer's Delight",
+                "modrinth": "Farmer's Delight"
+            },
+            "id": {
+                "curseforge": "398521",
+                "modrinth": "R2OftAxM"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FarmersDelight-1.21.1-1.3.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8007/613/FarmersDelight-1.21.1-1.3.1.jar",
+                    "id": "8007613",
+                    "parent_id": "398521",
+                    "hashes": {
+                        "sha1": "49477fafca740e7ae348d934b552fb313358e8fe",
+                        "md5": "ca20746e84b96587248b08ae9bc7a4a1"
+                    },
+                    "required_dependencies": [],
+                    "size": 3124506,
+                    "date_published": "2026-04-28T23:36:59.260Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "FarmersDelight-1.21.1-1.3.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/9gp7w8NC/FarmersDelight-1.21.1-1.3.1.jar",
+                    "id": "9gp7w8NC",
+                    "parent_id": "R2OftAxM",
+                    "hashes": {
+                        "sha512": "596340db019049e8da066df13cedb76eb06a8e877c86fd10b38332317b5fd5001cad485a6de87e3a8bf0423d87a1ffbdd51a86f6c06560f40995d68fe05edf95",
+                        "sha1": "49477fafca740e7ae348d934b552fb313358e8fe"
+                    },
+                    "required_dependencies": [],
+                    "size": 3124506,
+                    "date_published": "2026-04-28T23:39:19.328828Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "F6c9qwvDMj5d3gij",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "fruits-delight",
+                "modrinth": "fruits-delight"
+            },
+            "name": {
+                "curseforge": "Fruits Delight",
+                "modrinth": "Fruits Delight"
+            },
+            "id": {
+                "curseforge": "943774",
+                "modrinth": "g6sbyCTu"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fruitsdelight-1.2.13.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8004/727/fruitsdelight-1.2.13.jar",
+                    "id": "8004727",
+                    "parent_id": "943774",
+                    "hashes": {
+                        "sha1": "80844775990a0bc1f47aed52cc04b8bb579bcbc1",
+                        "md5": "4fa73714ab6d16b5e0cdf469ed363ab9"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 1910600,
+                    "date_published": "2026-04-28T11:13:29.277Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "fruitsdelight-1.2.13.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/g6sbyCTu/versions/kLzQjFUo/fruitsdelight-1.2.13.jar",
+                    "id": "kLzQjFUo",
+                    "parent_id": "g6sbyCTu",
+                    "hashes": {
+                        "sha512": "731bfe5a1367784bbb7bb67ad5fbb53ba5c613bd3752ce1af0ad5a8840c79c9488863b611e51994ce6de7f25d36f237a3a91960ee36a66020a6c2c05bdee0f0e",
+                        "sha1": "93f5e6fd2fcdb4a8975113e3e038e84eec47be5a"
+                    },
+                    "required_dependencies": [
+                        "R2OftAxM"
+                    ],
+                    "size": 1910600,
+                    "date_published": "2026-04-28T11:14:20.543206Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "NgavdJOLJvrm1mFR",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "geckolib",
+                "modrinth": "geckolib"
+            },
+            "name": {
+                "curseforge": "GeckoLib",
+                "modrinth": "Geckolib"
+            },
+            "id": {
+                "curseforge": "388172",
+                "modrinth": "8BmcQJ2H"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "geckolib-neoforge-1.21.1-4.8.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7707/149/geckolib-neoforge-1.21.1-4.8.4.jar",
+                    "id": "7707149",
+                    "parent_id": "388172",
+                    "hashes": {
+                        "sha1": "eb854c8ec53ef922a5f3877a1aa4c1ce1352e0ce",
+                        "md5": "f68322025b603faaaaa5a1b3c52dc2ae"
+                    },
+                    "required_dependencies": [],
+                    "size": 622582,
+                    "date_published": "2026-03-03T20:06:19.730Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "geckolib-neoforge-1.21.1-4.8.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/gFmrC8Ru/geckolib-neoforge-1.21.1-4.8.4.jar",
+                    "id": "gFmrC8Ru",
+                    "parent_id": "8BmcQJ2H",
+                    "hashes": {
+                        "sha512": "340d96149a04c57c09485f5b1c69e7f8ec3b68223c618e38b7d84c58f4280dcba3d0e9480b8fc79735d9ef5fd7da5fc8f3081d575bf4bbcd2c44b6dcf21d98c0",
+                        "sha1": "eb854c8ec53ef922a5f3877a1aa4c1ce1352e0ce"
+                    },
+                    "required_dependencies": [],
+                    "size": 622582,
+                    "date_published": "2026-03-03T20:06:25.035771Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Moh6bB6qAhVRBkJo",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "gensokyo-delight-youkais-feasts",
+                "modrinth": "gensokyo-delight-youkais-feasts"
+            },
+            "name": {
+                "curseforge": "Gensokyo Delight ~ Youkais' Feasts",
+                "modrinth": "Gensokyo Delight ~ Youkais' Feasts"
+            },
+            "id": {
+                "curseforge": "1309991",
+                "modrinth": "Ohy0TgO2"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "youkaisfeasts-1.1.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8004/770/youkaisfeasts-1.1.0.jar",
+                    "id": "8004770",
+                    "parent_id": "1309991",
+                    "hashes": {
+                        "sha1": "51aef4dd3e19a60b0a23f2e9ea06e32c4017f850",
+                        "md5": "9572b6205f0a99f277d7d106e3e29bca"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 3957882,
+                    "date_published": "2026-04-28T11:28:06.417Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "youkaisfeasts-1.1.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Ohy0TgO2/versions/psYvbkuW/youkaisfeasts-1.1.0.jar",
+                    "id": "psYvbkuW",
+                    "parent_id": "Ohy0TgO2",
+                    "hashes": {
+                        "sha512": "484f775e21ef7364fdbc4435491b0c14cb5c05a10994f5d0ca11b93ddfad030c3c8ddbf4efcda369b24ec4651538c5cef618236b6973509b649bb115f876548a",
+                        "sha1": "4cdea10f1856a25698907e77ea0a29d3e3e4fd3a"
+                    },
+                    "required_dependencies": [
+                        "R2OftAxM"
+                    ],
+                    "size": 3957881,
+                    "date_published": "2026-04-28T11:28:23.259466Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "9k6sYsJW1m0PW3m2",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "guideme",
+                "modrinth": "guideme"
+            },
+            "name": {
+                "curseforge": "GuideME",
+                "modrinth": "GuideME"
+            },
+            "id": {
+                "curseforge": "1173950",
+                "modrinth": "Ck4E7v7R"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "guideme-21.1.15.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7127/444/guideme-21.1.15.jar",
+                    "id": "7127444",
+                    "parent_id": "1173950",
+                    "hashes": {
+                        "sha1": "924c6bca566ee83789a4fd1ce72ea3ddfdf0f5e5",
+                        "md5": "e155422cf43d14722de051272137c294"
+                    },
+                    "required_dependencies": [],
+                    "size": 9309183,
+                    "date_published": "2025-10-19T22:31:21.503Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "guideme-21.1.15.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/ILW6vM7o/guideme-21.1.15.jar",
+                    "id": "ILW6vM7o",
+                    "parent_id": "Ck4E7v7R",
+                    "hashes": {
+                        "sha512": "4a35b2d9ae3958cb9e152757223b0fc0f85ed2c55da2c3bb773b9a353cf5db15e4294ac2b6d897c0d7c82674dd86c084dd2e35fb80b5bcf92067735c03288edc",
+                        "sha1": "924c6bca566ee83789a4fd1ce72ea3ddfdf0f5e5"
+                    },
+                    "required_dependencies": [],
+                    "size": 9309183,
+                    "date_published": "2025-10-19T22:31:24.388133Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "JzhFA1aJxJCHwe96",
+            "pakku_links": [
+                "wi83q82aKTEP3oQC"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kaleidoscope-chinese-food"
+            },
+            "name": {
+                "curseforge": "Kaleidoscope Chinese Food"
+            },
+            "id": {
+                "curseforge": "1479951"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kaleidoscope_chinesefood-1.0.1-neoforge+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7724/191/kaleidoscope_chinesefood-1.0.1-neoforge+1.21.1.jar",
+                    "id": "7724191",
+                    "parent_id": "1479951",
+                    "hashes": {
+                        "sha1": "98f34bd8f510f55302fa01f94e48ca613247da83",
+                        "md5": "385ed94a58e28aa141ebe3098aa77284"
+                    },
+                    "required_dependencies": [
+                        "1309203"
+                    ],
+                    "size": 157087,
+                    "date_published": "2026-03-07T13:17:45.763Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "wi83q82aKTEP3oQC",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "kaleidoscope-cookery",
+                "modrinth": "kaleidoscope-cookery"
+            },
+            "name": {
+                "curseforge": "Kaleidoscope Cookery",
+                "modrinth": "Kaleidoscope Cookery"
+            },
+            "id": {
+                "curseforge": "1309203",
+                "modrinth": "v17FatAc"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kaleidoscopecookery-1.3.0-neoforge+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7966/281/kaleidoscopecookery-1.3.0-neoforge+mc1.21.1.jar",
+                    "id": "7966281",
+                    "parent_id": "1309203",
+                    "hashes": {
+                        "sha1": "0754006b271155e481a96cb869bad5fb583d0a28",
+                        "md5": "1160fcc36a83abdc1121dd8982ea9381"
+                    },
+                    "required_dependencies": [],
+                    "size": 2987644,
+                    "date_published": "2026-04-22T10:51:26.123Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "kaleidoscopecookery-1.3.0-neoforge+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/v17FatAc/versions/x2qaC31Q/kaleidoscopecookery-1.3.0-neoforge+mc1.21.1.jar",
+                    "id": "x2qaC31Q",
+                    "parent_id": "v17FatAc",
+                    "hashes": {
+                        "sha512": "a710f73786d1144ecec011da6c1155ea2b8853a2e3d7f82004dee40a82fadfa625730e9b3333dba8e9e1c7e52110b2204db0b036e96e53b73a6800537d39bc9e",
+                        "sha1": "0754006b271155e481a96cb869bad5fb583d0a28"
+                    },
+                    "required_dependencies": [],
+                    "size": 2987644,
+                    "date_published": "2026-04-22T10:49:51.435921Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "t19myEQBTA5iHVYu",
+            "pakku_links": [
+                "wi83q82aKTEP3oQC"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "kaleidoscope-end",
+                "modrinth": "kaleidoscope-end"
+            },
+            "name": {
+                "curseforge": "Kaleidoscope End",
+                "modrinth": "Kaleidoscope End"
+            },
+            "id": {
+                "curseforge": "1456076",
+                "modrinth": "8GKUHBM6"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kaleidoscope_end-1.0.8-neoforge+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8030/789/kaleidoscope_end-1.0.8-neoforge+mc1.21.1.jar",
+                    "id": "8030789",
+                    "parent_id": "1456076",
+                    "hashes": {
+                        "sha1": "97dc5dbe3e69f2ab04e45a97492b75a23d04a15f",
+                        "md5": "775782c2b5c7c1709c7226da01796627"
+                    },
+                    "required_dependencies": [
+                        "1309203"
+                    ],
+                    "size": 373750,
+                    "date_published": "2026-05-03T06:12:04.767Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "kaleidoscope_end-1.0.8-neoforge+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/8GKUHBM6/versions/AFt1BJsw/kaleidoscope_end-1.0.8-neoforge+mc1.21.1.jar",
+                    "id": "AFt1BJsw",
+                    "parent_id": "8GKUHBM6",
+                    "hashes": {
+                        "sha512": "154bee388714008feb849c9722aa5f9795d35c095ca7c786c5ac7e088b1aa5ec125fd815694b6767c53d165ac218d3b824b24c2ce7f80e155fe23eb6e2c77e32",
+                        "sha1": "97dc5dbe3e69f2ab04e45a97492b75a23d04a15f"
+                    },
+                    "required_dependencies": [],
+                    "size": 373750,
+                    "date_published": "2026-05-03T06:11:25.871710Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "CSszPwWm2o4lVy2o",
+            "pakku_links": [
+                "wi83q82aKTEP3oQC"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "kaleidoscope-nether",
+                "modrinth": "kaleidoscope-nether"
+            },
+            "name": {
+                "curseforge": "Kaleidoscope Nether",
+                "modrinth": "Kaleidoscope Nether"
+            },
+            "id": {
+                "curseforge": "1417862",
+                "modrinth": "O4YuhMsI"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kaleidoscope_nether-1.1.1-neoforge+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8018/696/kaleidoscope_nether-1.1.1-neoforge+mc1.21.1.jar",
+                    "id": "8018696",
+                    "parent_id": "1417862",
+                    "hashes": {
+                        "sha1": "d1f4cbfe7d291e6bfb876e68c931f9b2a0f0dd97",
+                        "md5": "c01a879cd7d2432adf11328e220d4b8f"
+                    },
+                    "required_dependencies": [
+                        "1309203"
+                    ],
+                    "size": 1023387,
+                    "date_published": "2026-05-01T03:56:49.290Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "kaleidoscope_nether-1.1.1-neoforge+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/O4YuhMsI/versions/wTsbWt17/kaleidoscope_nether-1.1.1-neoforge+mc1.21.1.jar",
+                    "id": "wTsbWt17",
+                    "parent_id": "O4YuhMsI",
+                    "hashes": {
+                        "sha512": "6b0d8e338eeae850aa260f8a5638a75e41f9287a67681f9476c26baee4085e35b45fded75c82e72870f8a10878b005a587bf6711d033803072367100ed94704e",
+                        "sha1": "d1f4cbfe7d291e6bfb876e68c931f9b2a0f0dd97"
+                    },
+                    "required_dependencies": [],
+                    "size": 1023387,
+                    "date_published": "2026-05-01T03:52:42.479430Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "R0IKtzZiK2ORJWwl",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "kaleidoscope-tavern",
+                "modrinth": "kaleidoscopetavern"
+            },
+            "name": {
+                "curseforge": "Kaleidoscope Tavern",
+                "modrinth": "Kaleidoscope Tavern"
+            },
+            "id": {
+                "curseforge": "1475175",
+                "modrinth": "r9RZvhiJ"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kaleidoscopetavern-1.0.1-neoforge+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7785/542/kaleidoscopetavern-1.0.1-neoforge+mc1.21.1.jar",
+                    "id": "7785542",
+                    "parent_id": "1475175",
+                    "hashes": {
+                        "sha1": "b99eabd58922bb1d5a4af8acdc780bc548481663",
+                        "md5": "4a2635b3eaf4e1fc8959ab0480900a43"
+                    },
+                    "required_dependencies": [],
+                    "size": 896399,
+                    "date_published": "2026-03-20T16:39:43.037Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "kaleidoscopetavern-1.0.1-neoforge+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/r9RZvhiJ/versions/Ir0kL6FM/kaleidoscopetavern-1.0.1-neoforge+mc1.21.1.jar",
+                    "id": "Ir0kL6FM",
+                    "parent_id": "r9RZvhiJ",
+                    "hashes": {
+                        "sha512": "b2d3888001bd174a5262a9946637dd9d8da88c0ac7fed534e531491f442b190b6752622f4d201e3d0bbb012dd55690b949de5e068252fa39e099af2394528d1c",
+                        "sha1": "b99eabd58922bb1d5a4af8acdc780bc548481663"
+                    },
+                    "required_dependencies": [],
+                    "size": 896399,
+                    "date_published": "2026-03-20T16:36:25.943482Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "5dwxPNiJGPLu5RDx",
+            "pakku_links": [
+                "R0IKtzZiK2ORJWwl"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kaleidoscope-dimensions-wine"
+            },
+            "name": {
+                "curseforge": "Kaleidoscope：Dimensions wine"
+            },
+            "id": {
+                "curseforge": "1506363"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kaleidoscope_dim_wine-1.3.1-mc1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7970/387/kaleidoscope_dim_wine-1.3.1-mc1.21.1-neoforge.jar",
+                    "id": "7970387",
+                    "parent_id": "1506363",
+                    "hashes": {
+                        "sha1": "c614b11d0b795060c2ea832b506d572d117d699f",
+                        "md5": "81a2b1627bb4e65a749671e1dfef4398"
+                    },
+                    "required_dependencies": [
+                        "1475175"
+                    ],
+                    "size": 904515,
+                    "date_published": "2026-04-23T03:36:00.517Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "iCO9xU4UyjeFjXRc",
+            "pakku_links": [
+                "x3j53VxNYDSiik9Q"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "kubejs",
+                "modrinth": "kubejs"
+            },
+            "name": {
+                "curseforge": "KubeJS",
+                "modrinth": "KubeJS"
+            },
+            "id": {
+                "curseforge": "238086",
+                "modrinth": "umyGl7zF"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubejs-neoforge-2101.7.2-build.363.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8012/65/kubejs-neoforge-2101.7.2-build.363.jar",
+                    "id": "8012065",
+                    "parent_id": "238086",
+                    "hashes": {
+                        "sha1": "d4e88254e8c26687d4c6aeb4dfa9c2ad70f260a2",
+                        "md5": "b8d47302e577f0ca33d08f46c3e6625b"
+                    },
+                    "required_dependencies": [
+                        "416294"
+                    ],
+                    "size": 2270442,
+                    "date_published": "2026-04-29T22:00:01.697Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "kubejs-neoforge-2101.7.2-build.363.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/Fe9CjPws/kubejs-neoforge-2101.7.2-build.363.jar",
+                    "id": "Fe9CjPws",
+                    "parent_id": "umyGl7zF",
+                    "hashes": {
+                        "sha512": "f5becb7d285c5e1e4f1d739f553d0d08b1a0a7cb346e318902f72b5c7a460f4b62f834f26dcf4f6bf66ccd02da0302811824e183f0357cf6a67a1252069a8d65",
+                        "sha1": "d4e88254e8c26687d4c6aeb4dfa9c2ad70f260a2"
+                    },
+                    "required_dependencies": [],
+                    "size": 2270442,
+                    "date_published": "2026-04-29T22:03:00.015752Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "C8TAONwuxcIKzgmV",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "lodestone",
+                "modrinth": "lodestone"
+            },
+            "name": {
+                "curseforge": "Lodestone",
+                "modrinth": "Lodestone Warps"
+            },
+            "id": {
+                "curseforge": "616457",
+                "modrinth": "CuYN16jX"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lodestone-1.21.1-1.8.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7264/731/lodestone-1.21.1-1.8.2.jar",
+                    "id": "7264731",
+                    "parent_id": "616457",
+                    "hashes": {
+                        "sha1": "d1f7c638fac5192e01b1873f27e694a3c262ad11",
+                        "md5": "de0e38b222129dc010a7ffee59a07ea5"
+                    },
+                    "required_dependencies": [],
+                    "size": 818829,
+                    "date_published": "2025-11-26T15:33:46.263Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "180CuTLCSW6Ekq6W",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo",
+                "C8TAONwuxcIKzgmV"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "miners-delight-plus"
+            },
+            "name": {
+                "curseforge": "Miner's Delight +"
+            },
+            "id": {
+                "curseforge": "689630"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "minersdelight-1.21.1-1.4.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8011/49/minersdelight-1.21.1-1.4.5.jar",
+                    "id": "8011049",
+                    "parent_id": "689630",
+                    "hashes": {
+                        "sha1": "9361a43c3b2cfeda977d34a28e25a6e089465dcc",
+                        "md5": "b03e78ab68e8cd8fe817152ee9bb0f12"
+                    },
+                    "required_dependencies": [
+                        "398521",
+                        "616457"
+                    ],
+                    "size": 390203,
+                    "date_published": "2026-04-29T18:11:53.007Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "6OMNYQXVVRr0jHNP",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "my-nethers-delight",
+                "modrinth": "my-nethers-delight"
+            },
+            "name": {
+                "curseforge": "My Nether's Delight",
+                "modrinth": "My Nether's Delight"
+            },
+            "id": {
+                "curseforge": "1003673",
+                "modrinth": "O53VhQoZ"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MyNethersDelight-1.21.1-1.10.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8029/219/MyNethersDelight-1.21.1-1.10.2.jar",
+                    "id": "8029219",
+                    "parent_id": "1003673",
+                    "hashes": {
+                        "sha1": "d2fb0de59b66a017a1a25f23acdbe6e241b08541",
+                        "md5": "dec2b03b6f32739a2f9788fb2cb002ba"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 825875,
+                    "date_published": "2026-05-02T21:38:13.053Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "MyNethersDelight-1.21.1-1.10.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/O53VhQoZ/versions/qBUSJw5Z/MyNethersDelight-1.21.1-1.10.2.jar",
+                    "id": "qBUSJw5Z",
+                    "parent_id": "O53VhQoZ",
+                    "hashes": {
+                        "sha512": "2d16064b7cbbc1ef829c731d7ede5c680709ac6fe808c5bf2122443aa17862f86860b9d61f42b39847bebe6dfff42b883696503b986a9c88c5b6dfa82cd5d0fe",
+                        "sha1": "d2fb0de59b66a017a1a25f23acdbe6e241b08541"
+                    },
+                    "required_dependencies": [
+                        "R2OftAxM"
+                    ],
+                    "size": 825875,
+                    "date_published": "2026-05-02T21:39:06.594712Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "AnvGuTdbvBGB1wZF",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "mysterious-mountain-lib"
+            },
+            "name": {
+                "curseforge": "Mysterious Mountain Lib"
+            },
+            "id": {
+                "curseforge": "368098"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "mysterious_mountain_lib-1.2.15-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7878/548/mysterious_mountain_lib-1.2.15-1.21.1.jar",
+                    "id": "7878548",
+                    "parent_id": "368098",
+                    "hashes": {
+                        "sha1": "8cede0ac47ae320e5efff101305d4c8e298c7120",
+                        "md5": "085d1ec16d6f44f1dc3ad6ae0f7fc257"
+                    },
+                    "required_dependencies": [],
+                    "size": 291753,
+                    "date_published": "2026-04-05T09:50:50.637Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "W24jQYuAQSADQRlb",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "pineapple-delight",
+                "modrinth": "pineapple-delight"
+            },
+            "name": {
+                "curseforge": "Pineapple Delight",
+                "modrinth": "Pineapple Delight"
+            },
+            "id": {
+                "curseforge": "687974",
+                "modrinth": "8wXnuOvg"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "pineapple_delight-1.1.3-1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7888/624/pineapple_delight-1.1.3-1.21.1-neoforge.jar",
+                    "id": "7888624",
+                    "parent_id": "687974",
+                    "hashes": {
+                        "sha1": "40940ea9856a55c87ea2031d23023ca8d2287ec2",
+                        "md5": "492deca938e9a6b537adb062d7136033"
+                    },
+                    "required_dependencies": [],
+                    "size": 94405,
+                    "date_published": "2026-04-07T05:33:38.377Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "pineapple_delight-1.1.2-1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/8wXnuOvg/versions/GYMvjFwu/pineapple_delight-1.1.2-1.21.1-neoforge.jar",
+                    "id": "GYMvjFwu",
+                    "parent_id": "8wXnuOvg",
+                    "hashes": {
+                        "sha512": "86cf6b6c1d2d991e58e4ec4806c6837f414a1abac38b6fd209425b902c0b154fac9da2349e2fb3defec30a6d62411149ff01686f9f08c193faaf3779706db87f",
+                        "sha1": "fe775df146b47cf676310347f1bd70759814dcd1"
+                    },
+                    "required_dependencies": [],
+                    "size": 94700,
+                    "date_published": "2025-12-16T07:32:36.964033Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "x3j53VxNYDSiik9Q",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "rhino",
+                "modrinth": "rhino"
+            },
+            "name": {
+                "curseforge": "Rhino",
+                "modrinth": "Rhino"
+            },
+            "id": {
+                "curseforge": "416294",
+                "modrinth": "sk9knFPE"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rhino-2101.2.7-build.81.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.4",
+                        "1.21.1",
+                        "1.21.3",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7104/526/rhino-2101.2.7-build.81.jar",
+                    "id": "7104526",
+                    "parent_id": "416294",
+                    "hashes": {
+                        "sha1": "5dcc80079095706645d567353095297948a41eea",
+                        "md5": "050aad61e018a810b0f183ad50e084c6"
+                    },
+                    "required_dependencies": [],
+                    "size": 882032,
+                    "date_published": "2025-10-13T22:22:58.843Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "rhino-2101.2.7-build.81.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11",
+                        "26.1",
+                        "26.1.1",
+                        "26.1.2"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/ZdLtebKH/rhino-2101.2.7-build.81.jar",
+                    "id": "ZdLtebKH",
+                    "parent_id": "sk9knFPE",
+                    "hashes": {
+                        "sha512": "83a4f35cce9902b7175700aeccb8519716ff407dff2a936aa0215e162d81421d109c95f82ff88a84ccbe197caee0a4a76ca44d9c8b8ce954162596d7ede18c23",
+                        "sha1": "480235a9f7749f68ce6fec3b9c3cac3428b92a4a"
+                    },
+                    "required_dependencies": [],
+                    "size": 882033,
+                    "date_published": "2025-10-13T22:23:08.213734Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Pp8432zSzuLQmDEW",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "rustic-delight",
+                "modrinth": "rustic-delight"
+            },
+            "name": {
+                "curseforge": "Rustic Delight",
+                "modrinth": "Rustic Delight"
+            },
+            "id": {
+                "curseforge": "1106612",
+                "modrinth": "foa4fGIH"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rusticdelight-neoforge-1.21-1.6.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8017/409/rusticdelight-neoforge-1.21-1.6.0.jar",
+                    "id": "8017409",
+                    "parent_id": "1106612",
+                    "hashes": {
+                        "sha1": "eeebc3ecf50afad61f2a5c9b36e498cc3a5fec13",
+                        "md5": "173be3ab220549c0b00fa093a9621016"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 545705,
+                    "date_published": "2026-04-30T21:25:55.903Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "rusticdelight-neoforge-1.21-1.6.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/foa4fGIH/versions/1h2Mvp8M/rusticdelight-neoforge-1.21-1.6.0.jar",
+                    "id": "1h2Mvp8M",
+                    "parent_id": "foa4fGIH",
+                    "hashes": {
+                        "sha512": "2a1f519d99129354d7575e2baa3213e5f96bbe297b19b1d7b4be945accf8da46a3d5c8b5415bc9e292e6ea75bf5ab0884c4f78cbfa0d92efa01744a587d167ef",
+                        "sha1": "eeebc3ecf50afad61f2a5c9b36e498cc3a5fec13"
+                    },
+                    "required_dependencies": [
+                        "R2OftAxM"
+                    ],
+                    "size": 545705,
+                    "date_published": "2026-04-30T21:26:59.461495Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "KUex89BwbT8TQkJV",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "trail-tales-delight"
+            },
+            "name": {
+                "curseforge": "Trail&Tales Delight"
+            },
+            "id": {
+                "curseforge": "1198527"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "trailandtales_delight-0.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6526/274/trailandtales_delight-0.4.jar",
+                    "id": "6526274",
+                    "parent_id": "1198527",
+                    "hashes": {
+                        "sha1": "8801b16d3f32a4ab0d317c365351842a0a700dfa",
+                        "md5": "2bf1b536bb4341b7940155b9e02e9442"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 188184,
+                    "date_published": "2025-05-13T16:21:07.410Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "z5pdlD2JTwTtjpDY",
+            "pakku_links": [
+                "NgavdJOLJvrm1mFR"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "tsuki"
+            },
+            "name": {
+                "curseforge": "Tsuki"
+            },
+            "id": {
+                "curseforge": "1508022"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Tsuki-1.2.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8026/756/Tsuki-1.2.0.jar",
+                    "id": "8026756",
+                    "parent_id": "1508022",
+                    "hashes": {
+                        "sha1": "94fcb2029b9203a64c6ff2c70405a60b68dd4294",
+                        "md5": "4eb5d0e20e58d6a6f9106e7bc3059aa0"
+                    },
+                    "required_dependencies": [
+                        "388172"
+                    ],
+                    "size": 9295685,
+                    "date_published": "2026-05-02T14:13:39.980Z"
                 }
             ]
         }
     ],
-    "lockfile_version": 1
+    "lockfile_version": 2
 }

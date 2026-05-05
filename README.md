@@ -1,50 +1,41 @@
 <div align="center">
 
-# Modpack Template - Pakku
+# Modular Modpack: Agriculture
 
-A Minecraft Modpack Template based on [Pakku](https://github.com/juraj-hrivnak/Pakku), providing CI/CD of modpack.
+A Minecraft Modpack Modular, focused on Agriculture
 
 [English](README.md) / [简体中文](README_ZH.md)
 
-![Counter](https://count.getloli.com/@MPT-P?name=MPT-P&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
+![Counter](https://count.getloli.com/@MM-A?name=MM-A&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
 
 </div>
 
-## Feature
+## Introduction
 
-- Auto validate json & toml files
-- Auto build client-pack & server-pack
-- Auto test client-pack & server-pack
-- Auto test the connection between client and server
-- Provide lightweight server-pack by distributing the source
+Modular Modpack focus on a specific theme and solve the compatibility between mods which have the similar content. Modular Modpack is not meant to use directly, but act as a part of other modpacks that distirbuting friends, publishing public or using for public server.
 
-## Usage
+## How to use?
 
-### Pakku
+Just fork this project, or install this project and then move necessary files into your modpack. Notice that this modpack needs some Lib mod to build so you need to remove duplicate mods.
 
-See [https://juraj-hrivnak.github.io/Pakku/home.html](https://juraj-hrivnak.github.io/Pakku/home.html).
+If you just want to play these mods, you need a basic modpack like Ultramodern Optimization or Asai Integrated Modpack and copy all file into these basic modpack.
 
-### Github Action
+## Mod Standard
 
-#### Auto build & test
+### General Standard
 
-- The github action will be triggered when changing the content of modpack, including `pakku.json`, `pakku-lock.json` or `.pakku/`.
-- The action will validate json & toml files in `.pakku/`, you can configure in `exclude.txt` to exclude some files.
-- Then build client-pack, server-pack & full server-pack, release them under `build` tag.
-- Finally start up client-pack & server-pack to test.
+- Published on Curseforge. Mods that only published on Modrinth is not supported.
+- Not create by MCreator.
+- Open Source, ARR mod should be validate the stability.
+-  Active Maintain is better.
 
-#### Release & publish
+### Modular Standard
 
-- You need to manually trigger the release script in Github Action Page.
-- The action will parse the version of modpack and create a new release.
-- If you want to auto publish your modpack to platforms like Curseforge or Modrinth, refer [Kir-Antipov/mc-publish](https://github.com/marketplace/actions/mc-publish) to change [the release script](.github/workflows/build.yml).
+- KubeJS & Rhino.
+- Have agriculture content or necessary Lib mod.
+- Mods dependent non agriculture or Lib mod will not be acceptable, such as Twilight's Flavors & Delight.
 
 ## License
 
-MIT License
+AGPL-3
 
-## Special Thanks
-
-- [Pakku](https://github.com/juraj-hrivnak/Pakku)
-- [PortableMC](https://github.com/theorzr/portablemc)
-- [CTNH](https://github.com/CTNH-Team/Create-New-Horizon)

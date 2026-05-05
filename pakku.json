@@ -1,6 +1,7 @@
 {
-    "name": "Example Modpack",
-    "version": "1.0.0",
-    "description": "Example modpack description",
-    "author": "Author Name"
+    "name": "Modular Modpack: Agriculture",
+    "version": "0.0.1",
+    "overrides": [
+        "config"
+    ]
 }
