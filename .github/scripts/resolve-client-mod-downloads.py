@@ -109,10 +109,9 @@ def main() -> int:
         hashes = chosen.get("hashes")
         if isinstance(hashes, dict):
             sha1 = str(hashes.get("sha1", ""))
-
         lines.append("\t".join([str(url), str(file_name), sha1]))
 
-    out_path.write_text("\n".join(lines), encoding="utf-8")
+    out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"Resolved {len(lines)} client mod downloads")
     return 0
 
