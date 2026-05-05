@@ -3,5 +3,37 @@
     "version": "0.0.1",
     "overrides": [
         "config"
-    ]
+    ],
+    "projects": {
+        "lodestone": {
+            "side": "BOTH"
+        },
+        "geckolib": {
+            "side": "BOTH"
+        },
+        "bakeries": {
+            "side": "BOTH"
+        },
+        "delighto-flight": {
+            "side": "BOTH"
+        },
+        "kaleidoscope-chinese-food": {
+            "side": "BOTH"
+        },
+        "kaleidoscope-dimensions-wine": {
+            "side": "BOTH"
+        },
+        "miners-delight-plus": {
+            "side": "BOTH"
+        },
+        "mysterious-mountain-lib": {
+            "side": "BOTH"
+        },
+        "trail-tales-delight": {
+            "side": "BOTH"
+        },
+        "tsuki": {
+            "side": "BOTH"
+        }
+    }
 }
