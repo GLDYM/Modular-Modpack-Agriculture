@@ -156,67 +156,6 @@
             ]
         },
         {
-            "pakku_id": "kQwxVUkIRZUgixTF",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "calypsos-candy-workshop",
-                "modrinth": "calypsos-candy-workshop"
-            },
-            "name": {
-                "curseforge": "Calypso's Candy Workshop",
-                "modrinth": "Calypso's Candy Workshop"
-            },
-            "id": {
-                "curseforge": "1266919",
-                "modrinth": "zCKDP104"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ccw-v1.3.0-mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7746/760/ccw-v1.3.0-mc1.21.1.jar",
-                    "id": "7746760",
-                    "parent_id": "1266919",
-                    "hashes": {
-                        "sha1": "ca780e78edc6c502815546b63e8eb438f44b9c30",
-                        "md5": "5d4edad4031a91a2dc08f468402eb688"
-                    },
-                    "required_dependencies": [],
-                    "size": 702718,
-                    "date_published": "2026-03-12T12:34:38.783Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "ccw-v1.3.0-mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/zCKDP104/versions/dTEw59hT/ccw-v1.3.0-mc1.21.1.jar",
-                    "id": "dTEw59hT",
-                    "parent_id": "zCKDP104",
-                    "hashes": {
-                        "sha512": "1ae2f0afc6b8efb3be4c6375d6feae054d755578e521f071aee3f5fdbb887028ee6a08cb30cc970b1849a64c7244bb65f0aa792631fe2f517691d080106201bd",
-                        "sha1": "ca780e78edc6c502815546b63e8eb438f44b9c30"
-                    },
-                    "required_dependencies": [],
-                    "size": 702718,
-                    "date_published": "2026-03-12T12:34:41.343286Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "6B1AnhcJ5QDPnCHl",
             "pakku_links": [
                 "exCP2y0syJVA9jKo"
