@@ -1,0 +1,129 @@
+[
+  {
+    "matchItems": [
+      "kaleidoscope_cookery:tomato",
+      "bakeries:tomato",
+      "tsuki:tomato"
+    ],
+    "resultItems": "farmersdelight:tomato"
+  },
+  {
+    "matchItems": [
+      "extradelight:corn_on_cob"
+    ],
+    "resultItems": "corn_delight:corn"
+  },
+  {
+    "matchItems": [
+      "fruitsdelight:lemon",
+      "extradelight:lemon"
+    ],
+    "resultItems": "tsuki:lemon"
+  },
+  {
+    "matchItems": [
+      "extradelight:cucumber"
+    ],
+    "resultItems": "youkaisfeasts:cucumber"
+  },
+  {
+    "matchItems": [
+      "extradelight:soybeans",
+      "tsuki:soybean"
+    ],
+    "resultItems": "youkaisfeasts:soybean"
+  },
+  {
+    "matchItems": [
+      "bakeries:matcha_powder",
+      "tsuki:mocha"
+    ],
+    "resultItems": "youkaisfeasts:matcha"
+  },
+  {
+    "matchItems": [
+      "kaleidoscope_cookery:tomato_seed",
+      "tsuki:tomato_seeds"
+    ],
+    "resultItems": "farmersdelight:tomato_seeds"
+  },
+  {
+    "matchItems": [
+      "tsuki:cabbage"
+    ],
+    "resultItems": "farmersdelight:cabbage"
+  },
+  {
+    "matchItems": [
+      "tsuki:sliced_cabbage"
+    ],
+    "resultItems": "farmersdelight:cabbage_leaf"
+  },
+  {
+    "matchItems": [
+      "kaleidoscope_cookery:rice",
+      "tsuki:rice"
+    ],
+    "resultItems": "farmersdelight:rice"
+  },
+  {
+    "matchItems": [
+      "kaleidoscope_cookery:cooked_rice",
+      "tsuki:rice_cooked"
+    ],
+    "resultItems": "farmersdelight:cooked_rice"
+  },
+  {
+    "matchItems": [
+      "bakeries:whole_wheat_flour",
+      "tsuki:flour"
+    ],
+    "resultItems": "kaleidoscope_cookery:flour"
+  },
+  {
+    "matchItems": [
+      "tsuki:dough",
+      "bakeries:whole_wheat_dough",
+      "kaleidoscope_cookery:raw_dough"
+    ],
+    "resultItems": "farmersdelight:wheat_dough"
+  },
+  {
+    "matchItems": [
+      "kaleidoscope_tavern:grape",
+      "tsuki:grape"
+    ],
+    "resultItems": "youkaisfeasts:red_grape"
+  },
+  {
+    "matchItems": [
+      "tsuki:grape_green"
+    ],
+    "resultItems": "youkaisfeasts:white_grape"
+  },
+  {
+    "matchItems": [
+      "tsuki:green_tea_leaves"
+    ],
+    "resultItems": "youkaisfeasts:green_tea_leaves"
+  },
+  {
+    "matchItems": [
+      "farmersdelight:raw_pasta",
+      "tsuki:pasta_raw"
+    ],
+    "resultItems": "kaleidoscope_cookery:raw_noodles"
+  },
+  {
+    "matchItems": [
+      "fruitsdelight:pineapple"
+    ],
+    "resultItems": "pineapple_delight:pineapple"
+  },
+  {
+    "matchItems": [
+      "tsuki:red_bean"
+    ],
+    "resultItems": "youkaisfeasts:redbean"
+  }
+]

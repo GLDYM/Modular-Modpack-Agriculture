@@ -12,7 +12,7 @@ A Minecraft Modpack Modular, focused on Agriculture
 
 ## Introduction
 
-Modular Modpack focus on a specific theme and solve the compatibility between mods which have the similar content. Modular Modpack is not meant to use directly, but act as a part of other modpacks that distirbuting friends, publishing public or using for public server.
+Modular Modpack focus on a specific theme, solve the compatibility and unify duplicate content between mods which have the similar content. Modular Modpack is not meant to use directly, but act as a part of other modpacks that distributing friends, publishing public or using for public server.
 
 ## How to use?
 
