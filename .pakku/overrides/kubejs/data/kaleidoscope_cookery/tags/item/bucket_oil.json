@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tsuki:food_oil_bucket",
+      "required": false
+    }
+  ]
+}

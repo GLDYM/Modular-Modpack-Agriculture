@@ -2,8 +2,6 @@
 
 # Modular Modpack: Agriculture
 
-A Minecraft Modpack Modular, focused on Agriculture
-
 [English](README.md) / [简体中文](README_ZH.md)
 
 ![Counter](https://count.getloli.com/@MM-A?name=MM-A&theme=miku&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)
@@ -12,7 +10,11 @@ A Minecraft Modpack Modular, focused on Agriculture
 
 ## Introduction
 
-Modular Modpack focus on a specific theme, solve the compatibility and unify duplicate content between mods which have the similar content. Modular Modpack is not meant to use directly, but act as a part of other modpacks that distributing friends, publishing public or using for public server.
+Some mods are only served as a necessary component in the modpacks that focused on Tech or Adventure, or just distributing friends, or using for public server. The modpack creator cannot put too much effort on the mods that are not important or familiar with. This makes them don't perform so well in the modpack.
+
+Modular Modpack focus on a specific theme, solve the compatibility and unify duplicate content between mods which have the similar content. It provides a portable solution to reduce the pressure of the modpack creators. 
+
+Modular Modpack is not meant to use directly, but act as a part of other modpacks that distributing friends, publishing public or using for public server.
 
 ## How to use?
 
