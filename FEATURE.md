@@ -24,7 +24,15 @@ youkaisfeasts > farmersdelight > kaleidoscope_tavern > tsuki
 - pineapple -> youkaisfeasts:redbean
 - tofu -> youkaisfeasts:tofu
 
+## Cooking
+
+### Convert
+
+- youkaisfeasts:unordered_cooking -> tsuki:cooking
+
 ## Brew
+
+### Convert
 
 - tsuki:fermenting, youkaisfeasts:simple_fermentation -> brewinandchewin:fermenting
 - brewinandchewin:fermenting, youkaisfeasts:simple_fermentation -> tsuki:fermenting
