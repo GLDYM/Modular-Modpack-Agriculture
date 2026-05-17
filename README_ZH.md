@@ -1,5 +1,7 @@
 <div align="center">
 
+![icon](modular_modpack.png)
+
 # 模块化整合包：农业
 
 [English](README.md) / [简体中文](README_ZH.md)
