@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "youkaisfeasts",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "tsuki",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "youkaisfeasts:simple_fermentation",
+  "ingredients": [
+    {
+      "tag": "c:crops/eggplant"
+    },
+    {
+      "item": "tsuki:nuka"
+    },
+    {
+      "tag": "c:salt"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "id": "minecraft:water"
+  },
+  "outputFluid": {},
+  "results": [
+    {
+      "count": 2,
+      "id": "tsuki:pickled_eggplant"
+    }
+  ],
+  "time": 400
+}

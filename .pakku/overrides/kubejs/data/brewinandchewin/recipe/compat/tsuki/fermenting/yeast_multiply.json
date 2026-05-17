@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tsuki"
+    }
+  ],
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 500,
+    "ingredient": {
+      "tag": "#c:water/water"
+    },
+    "unit": "millibuckets"
+  },
+  "fermentingtime": 200,
+  "ingredients": [
+    {
+      "tag": "c:yeast"
+    },
+    {
+      "tag": "c:sugar/sugar"
+    },
+    {
+      "tag": "c:sugar/sugar"
+    }
+  ],
+  "result": {
+    "count": 20,
+    "id": "tsuki:yeast"
+  },
+  "unit": "millibuckets"
+}

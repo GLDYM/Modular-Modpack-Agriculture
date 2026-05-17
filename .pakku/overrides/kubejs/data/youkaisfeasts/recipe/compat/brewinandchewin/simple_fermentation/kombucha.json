@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "farmersrespite",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "youkaisfeasts",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "brewinandchewin",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "youkaisfeasts:simple_fermentation",
+  "ingredients": [
+    {
+      "tag": "forge:crops/carrot"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "farmersrespite:black_tea_leaves"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "id": "brewinandchewin:vodka"
+  },
+  "outputFluid": {
+    "amount": 1000,
+    "id": "brewinandchewin:kombucha"
+  },
+  "results": [],
+  "time": 9600
+}

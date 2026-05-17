@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "tsuki",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "brewinandchewin",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "tsuki:fermenting",
+  "experience": 0,
+  "fluid": {
+    "amount": 1000,
+    "fluidTag": "brewinandchewin:vodka"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:sea_pickle"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "minecraft:seagrass"
+    }
+  ],
+  "recipeTime": 400,
+  "result_fluid": {
+    "amount": 1000,
+    "fluid": "brewinandchewin:salty_folly"
+  },
+  "results": []
+}

@@ -1,8 +1,8 @@
 {
   "neoforge:conditions": [
     {
-      "type": "neoforge:mod_loaded",
-      "modid": "mynethersdelight"
+      "modid": "mynethersdelight",
+      "type": "neoforge:mod_loaded"
     }
   ],
   "type": "minecraft:crafting_shaped",

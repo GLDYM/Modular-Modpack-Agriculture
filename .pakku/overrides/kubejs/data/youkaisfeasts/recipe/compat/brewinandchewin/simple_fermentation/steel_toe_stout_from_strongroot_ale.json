@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "youkaisfeasts",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "brewinandchewin",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "youkaisfeasts:simple_fermentation",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "id": "brewinandchewin:strongroot_ale"
+  },
+  "outputFluid": {
+    "amount": 1000,
+    "id": "brewinandchewin:steel_toe_stout"
+  },
+  "results": [],
+  "time": 2400
+}

@@ -13,3 +13,5 @@ python-tools/chapters-original
 # remove client config
 .pakku/overrides/config/*client.toml
 .pakku/overrides/config/*client.json
+
+reference/

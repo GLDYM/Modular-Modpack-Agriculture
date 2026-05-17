@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "youkaisfeasts",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "brewinandchewin",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "youkaisfeasts:simple_fermentation",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    },
+    {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "id": "brewinandchewin:rice_wine"
+  },
+  "outputFluid": {
+    "amount": 1000,
+    "id": "brewinandchewin:pale_jane"
+  },
+  "results": [],
+  "time": 2400
+}

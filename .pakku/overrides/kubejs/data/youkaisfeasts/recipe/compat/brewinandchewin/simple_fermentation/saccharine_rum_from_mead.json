@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "youkaisfeasts",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "brewinandchewin",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "youkaisfeasts:simple_fermentation",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "item": "minecraft:melon"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "id": "brewinandchewin:mead"
+  },
+  "outputFluid": {
+    "amount": 1000,
+    "id": "brewinandchewin:saccharine_rum"
+  },
+  "results": [],
+  "time": 2400
+}

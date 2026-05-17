@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "youkaisfeasts",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "tsuki",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "youkaisfeasts:simple_fermentation",
+  "ingredients": [
+    {
+      "tag": "c:dusts/charcoal"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "id": "tsuki:doburoku"
+  },
+  "outputFluid": {
+    "amount": 500,
+    "id": "tsuki:sake"
+  },
+  "results": [
+    {
+      "count": 2,
+      "id": "tsuki:sake_kasu"
+    }
+  ],
+  "time": 500
+}

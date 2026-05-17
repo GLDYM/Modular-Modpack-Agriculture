@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "youkaisfeasts",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "tsuki",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "youkaisfeasts:simple_fermentation",
+  "ingredients": [
+    {
+      "tag": "c:mushrooms/brownmushroom"
+    },
+    {
+      "tag": "c:sugar/sugar"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "id": "minecraft:water"
+  },
+  "outputFluid": {},
+  "results": [
+    {
+      "count": 40,
+      "id": "tsuki:yeast"
+    }
+  ],
+  "time": 400
+}

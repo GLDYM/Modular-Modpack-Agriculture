@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "tsuki",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "youkaisfeasts",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "tsuki:fermenting",
+  "experience": 0,
+  "fluid": {
+    "amount": 1000,
+    "fluid": "youkaisfeasts:red_grape_juice"
+  },
+  "ingredients": [],
+  "recipeTime": 1800,
+  "result_fluid": {
+    "amount": 1000,
+    "fluid": "youkaisfeasts:red_wine"
+  },
+  "results": []
+}

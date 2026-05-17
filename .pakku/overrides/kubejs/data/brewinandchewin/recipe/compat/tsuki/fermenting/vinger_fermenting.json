@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tsuki"
+    }
+  ],
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 500,
+    "ingredient": {
+      "tag": "#tsuki:brewers_alcohol"
+    },
+    "unit": "millibuckets"
+  },
+  "fermentingtime": 800,
+  "ingredients": [
+    {
+      "tag": "c:kouji"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "tsuki:vinegar"
+  },
+  "unit": "millibuckets"
+}

@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "youkaisfeasts",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "tsuki",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "youkaisfeasts:simple_fermentation",
+  "ingredients": [
+    {
+      "tag": "c:kouji"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "id": "tsuki:tequila"
+  },
+  "outputFluid": {},
+  "results": [
+    {
+      "count": 8,
+      "id": "tsuki:vinegar"
+    }
+  ],
+  "time": 800
+}

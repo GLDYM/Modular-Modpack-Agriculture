@@ -9,26 +9,12 @@
   },
   {
     "matchItems": [
-      "extradelight:corn_on_cob"
-    ],
-    "resultItems": "corn_delight:corn"
-  },
-  {
-    "matchItems": [
-      "fruitsdelight:lemon",
-      "extradelight:lemon"
+      "fruitsdelight:lemon"
     ],
     "resultItems": "tsuki:lemon"
   },
   {
     "matchItems": [
-      "extradelight:cucumber"
-    ],
-    "resultItems": "youkaisfeasts:cucumber"
-  },
-  {
-    "matchItems": [
-      "extradelight:soybeans",
       "tsuki:soybean"
     ],
     "resultItems": "youkaisfeasts:soybean"
@@ -76,9 +62,9 @@
   {
     "matchItems": [
       "bakeries:whole_wheat_flour",
-      "tsuki:flour"
+      "kaleidoscope_cookery:flour"
     ],
-    "resultItems": "kaleidoscope_cookery:flour"
+    "resultItems": "tsuki:flour"
   },
   {
     "matchItems": [
@@ -90,16 +76,17 @@
   },
   {
     "matchItems": [
-      "kaleidoscope_tavern:grape",
+      "youkaisfeasts:red_grape",
       "tsuki:grape"
     ],
-    "resultItems": "youkaisfeasts:red_grape"
+    "resultItems": "kaleidoscope_tavern:grape"
   },
   {
     "matchItems": [
-      "tsuki:grape_green"
+      "tsuki:grape_green",
+      "youkaisfeasts:white_grape"
     ],
-    "resultItems": "youkaisfeasts:white_grape"
+    "resultItems": "kaleidoscope_tavern:green_grape"
   },
   {
     "matchItems": [
@@ -109,10 +96,10 @@
   },
   {
     "matchItems": [
-      "farmersdelight:raw_pasta",
+      "kaleidoscope_cookery:raw_noodles",
       "tsuki:pasta_raw"
     ],
-    "resultItems": "kaleidoscope_cookery:raw_noodles"
+    "resultItems": "farmersdelight:raw_pasta"
   },
   {
     "matchItems": [
@@ -125,5 +112,11 @@
       "tsuki:red_bean"
     ],
     "resultItems": "youkaisfeasts:redbean"
+  },
+  {
+    "matchItems": [
+      "tsuki:tofu"
+    ],
+    "resultItems": "youkaisfeasts:tofu"
   }
 ]

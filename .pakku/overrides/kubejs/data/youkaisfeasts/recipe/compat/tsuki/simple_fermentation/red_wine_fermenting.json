@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "youkaisfeasts",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "tsuki",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "youkaisfeasts:simple_fermentation",
+  "ingredients": [
+    {
+      "tag": "c:crops/grape"
+    },
+    {
+      "tag": "c:crops/grape"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:yeast"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "id": "minecraft:water"
+  },
+  "outputFluid": {
+    "amount": 500,
+    "id": "tsuki:red_wine"
+  },
+  "results": [],
+  "time": 800
+}

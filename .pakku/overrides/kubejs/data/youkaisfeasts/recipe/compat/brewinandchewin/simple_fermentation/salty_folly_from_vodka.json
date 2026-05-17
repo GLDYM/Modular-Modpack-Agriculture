@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "youkaisfeasts",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "brewinandchewin",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "youkaisfeasts:simple_fermentation",
+  "ingredients": [
+    {
+      "item": "minecraft:sea_pickle"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "minecraft:seagrass"
+    }
+  ],
+  "inputFluid": {
+    "amount": 1000,
+    "id": "brewinandchewin:vodka"
+  },
+  "outputFluid": {
+    "amount": 1000,
+    "id": "brewinandchewin:salty_folly"
+  },
+  "results": [],
+  "time": 2400
+}

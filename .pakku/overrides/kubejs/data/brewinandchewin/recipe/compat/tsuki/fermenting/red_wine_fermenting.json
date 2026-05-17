@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tsuki"
+    }
+  ],
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "tag": "#c:water/water"
+    },
+    "unit": "millibuckets"
+  },
+  "fermentingtime": 800,
+  "ingredients": [
+    {
+      "tag": "c:crops/grape"
+    },
+    {
+      "tag": "c:crops/grape"
+    },
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:yeast"
+    }
+  ],
+  "result": {
+    "amount": 500,
+    "id": "tsuki:red_wine"
+  },
+  "unit": "millibuckets"
+}

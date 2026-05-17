@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tsuki"
+    }
+  ],
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "id": "tsuki:doburoku"
+    },
+    "unit": "millibuckets"
+  },
+  "fermentingtime": 500,
+  "ingredients": [
+    {
+      "tag": "c:dusts/charcoal"
+    }
+  ],
+  "result": {
+    "amount": 500,
+    "id": "tsuki:sake"
+  },
+  "unit": "millibuckets"
+}

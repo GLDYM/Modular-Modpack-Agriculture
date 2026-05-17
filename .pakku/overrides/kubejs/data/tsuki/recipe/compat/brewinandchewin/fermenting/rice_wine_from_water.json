@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "tsuki",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "brewinandchewin",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "tsuki:fermenting",
+  "experience": 0,
+  "fluid": {
+    "amount": 1000,
+    "fluidTag": "c:water"
+  },
+  "ingredients": [
+    {
+      "tag": "c:crops/rice"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "recipeTime": 400,
+  "result_fluid": {
+    "amount": 1000,
+    "fluid": "brewinandchewin:rice_wine"
+  },
+  "results": []
+}

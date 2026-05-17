@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "modid": "tsuki",
+      "type": "neoforge:mod_loaded"
+    },
+    {
+      "modid": "youkaisfeasts",
+      "type": "neoforge:mod_loaded"
+    }
+  ],
+  "type": "tsuki:fermenting",
+  "experience": 0,
+  "fluid": {
+    "amount": 1000,
+    "fluid": "youkaisfeasts:red_grape_juice"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "recipeTime": 2400,
+  "result_fluid": {
+    "amount": 1000,
+    "fluid": "youkaisfeasts:van_allen"
+  },
+  "results": []
+}

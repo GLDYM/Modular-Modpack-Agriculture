@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tsuki"
+    }
+  ],
+  "type": "brewinandchewin:keg_pouring",
+  "container": {
+    "count": 1,
+    "id": "tsuki:wine_bottle"
+  },
+  "fluid": {
+    "amount": 100,
+    "id": "tsuki:tequila"
+  },
+  "output": {
+    "count": 1,
+    "id": "tsuki:tequila_bottle"
+  },
+  "unit": "millibuckets"
+}

@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brewinandchewin"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tsuki"
+    }
+  ],
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 1000,
+    "ingredient": {
+      "id": "tsuki:white_wine"
+    },
+    "unit": "millibuckets"
+  },
+  "fermentingtime": 800,
+  "ingredients": [
+    {
+      "tag": "c:sugar"
+    },
+    {
+      "tag": "c:yeast"
+    }
+  ],
+  "result": {
+    "amount": 500,
+    "id": "tsuki:champagne"
+  },
+  "unit": "millibuckets"
+}
