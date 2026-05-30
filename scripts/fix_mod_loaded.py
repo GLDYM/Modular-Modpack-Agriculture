@@ -75,9 +75,14 @@ def process_file(path):
     return changed
 
 
+def is_recipe_file(root, path):
+    relative_parts = path.relative_to(root).parts
+    return len(relative_parts) >= 3 and relative_parts[1] == "recipe"
+
+
 def main():
     parser = argparse.ArgumentParser(
-        description="Scan datapack JSON files and add neoforge:mod_loaded conditions for all referenced namespaces."
+        description="Scan recipe JSON files and add neoforge:mod_loaded conditions for all referenced namespaces."
     )
     parser.add_argument(
         "root",
@@ -93,10 +98,12 @@ def main():
 
     changed_files = 0
     for path in sorted(root.rglob("*.json")):
+        if not is_recipe_file(root, path):
+            continue
         if process_file(path):
             changed_files += 1
 
-    print(f"Updated {changed_files} files under {root}")
+    print(f"Updated {changed_files} recipe files under {root}")
 
 
 if __name__ == "__main__":
