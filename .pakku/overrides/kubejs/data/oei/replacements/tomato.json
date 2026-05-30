@@ -68,6 +68,7 @@
   },
   {
     "matchItems": [
+      "create:dough",
       "tsuki:dough",
       "bakeries:whole_wheat_dough",
       "kaleidoscope_cookery:raw_dough"
@@ -118,5 +119,17 @@
       "tsuki:tofu"
     ],
     "resultItems": "youkaisfeasts:tofu"
+  },
+  {
+    "matchItems": [
+      "farmersdelight:chicken_cuts"
+    ],
+    "resultItems": "kaleidoscope_cookery:raw_cut_small_meats"
+  },
+  {
+    "matchItems": [
+      "farmersdelight:cooked_chicken_cuts"
+    ],
+    "resultItems": "kaleidoscope_cookery:cooked_cut_small_meats"
   }
 ]

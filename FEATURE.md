@@ -1,8 +1,6 @@
 # Feature
 
-## Crop
-
-### Unify
+## Unify
 
 youkaisfeasts > farmersdelight > kaleidoscope_tavern > tsuki
 
@@ -24,22 +22,27 @@ youkaisfeasts > farmersdelight > kaleidoscope_tavern > tsuki
 - pineapple -> youkaisfeasts:redbean
 - tofu -> youkaisfeasts:tofu
 
-## Cooking
+## Tags
 
-### Convert
+- tsuki:food_oil_bucket -> #kaleidoscope_cookery:bucket_oil
+- minecraft:carrot -> #c:foods/carrot
+
+## Recipe Convert
+
+### Cooking
 
 - youkaisfeasts:unordered_cooking -> tsuki:cooking
 
-## Brew
-
-### Convert
+### Brew
 
 - tsuki:fermenting, youkaisfeasts:simple_fermentation -> brewinandchewin:fermenting
 - brewinandchewin:fermenting, youkaisfeasts:simple_fermentation -> tsuki:fermenting
 - brewinandchewin:fermenting, tsuki:fermenting -> youkaisfeasts:simple_fermentation
 
-## Misc
+## Recipe Change
 
-- tsuki:food_oil_bucket -> #kaleidoscope_cookery:bucket_oil
-- minecraft:carrot -> #c:foods/carrot
+## Recipe Fix
+
 - Fix mynethersdelight:crafting/raw_stuffed_hoglin_from_kaleidoscope from Kaleidoscope Nether
+
+## Language Change
