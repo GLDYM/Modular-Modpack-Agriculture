@@ -1028,6 +1028,52 @@
             ]
         },
         {
+            "pakku_id": "B01isk5QE02CjjGw",
+            "pakku_links": [
+                "exCP2y0syJVA9jKo"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "immortalers-delight",
+                "modrinth": "immortalers-delight"
+            },
+            "name": {
+                "curseforge": "Immortalers Delight",
+                "modrinth": "Immortalers Delight"
+            },
+            "id": {
+                "curseforge": "1196075",
+                "modrinth": "3WqFZ7vw"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "immortalers_delight-1.21.1-neoforge-1.0.0-alpha.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/8132/751/immortalers_delight-1.21.1-neoforge-1.0.0-alpha.jar",
+                    "id": "8132751",
+                    "parent_id": "1196075",
+                    "hashes": {
+                        "sha1": "ad7a66e026bce0211a55603eaa5453e91b929757",
+                        "md5": "1f864b3272fa9790f10144c44eb72562"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 2970473,
+                    "date_published": "2026-05-23T13:25:54.280Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "rt1dydhCJixf7jg0",
             "type": "MOD",
             "side": "BOTH",
@@ -1338,7 +1384,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "kaleidoscope_dim_wine-1.4.1-mc1.21.1-neoforge.jar",
+                    "file_name": "kaleidoscope_dim_wine-1.5.0-mc1.21.1-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -1346,18 +1392,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8112/410/kaleidoscope_dim_wine-1.4.1-mc1.21.1-neoforge.jar",
-                    "id": "8112410",
+                    "url": "https://edge.forgecdn.net/files/8158/363/kaleidoscope_dim_wine-1.5.0-mc1.21.1-neoforge.jar",
+                    "id": "8158363",
                     "parent_id": "1506363",
                     "hashes": {
-                        "sha1": "37ebe9c7556623686eea36d1b194b7f2b90506ae",
-                        "md5": "2b58b7f3581782ae9c04c899df949327"
+                        "sha1": "f03b829fd3fd083aa14cfc7ef42fd8e788cb8408",
+                        "md5": "097ef1194bba7de7f9f638f89b88cde1"
                     },
                     "required_dependencies": [
                         "1475175"
                     ],
-                    "size": 1023597,
-                    "date_published": "2026-05-19T05:58:17.133Z"
+                    "size": 1043497,
+                    "date_published": "2026-05-28T07:11:40.243Z"
                 }
             ]
         },
@@ -1929,7 +1975,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Tsuki-1.4.4.jar",
+                    "file_name": "Tsuki-1.4.5.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -1937,19 +1983,19 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8144/246/Tsuki-1.4.4.jar",
-                    "id": "8144246",
+                    "url": "https://edge.forgecdn.net/files/8168/107/Tsuki-1.4.5.jar",
+                    "id": "8168107",
                     "parent_id": "1508022",
                     "hashes": {
-                        "sha1": "26848df5e7d7010053b8af2eccaba8b429dfc41e",
-                        "md5": "95c1933978bc6fa5f5d36100f41e6402"
+                        "sha1": "69773a50f9829f95fa84c5d0acac01cb9aa3ca1d",
+                        "md5": "197cd0bb9bcb166ec9919c6b8591aeed"
                     },
                     "required_dependencies": [
-                        "388172",
-                        "1173950"
+                        "1173950",
+                        "388172"
                     ],
-                    "size": 9602642,
-                    "date_published": "2026-05-25T15:53:55.003Z"
+                    "size": 9601497,
+                    "date_published": "2026-05-30T06:17:41.583Z"
                 }
             ]
         }

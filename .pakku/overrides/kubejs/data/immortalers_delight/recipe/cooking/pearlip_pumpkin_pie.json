@@ -23,7 +23,7 @@
           "item": "minecraft:sugar"
         },
         {
-          "tag": "forge:sugar"
+          "tag": "c:sugar"
         }
       ]
     }

@@ -2,7 +2,7 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
     {
-      "tag": "forge:grain"
+      "tag": "c:grain"
     },
     {
       "item": "farmersdelight:tree_bark"
@@ -20,10 +20,10 @@
       "type": "neoforge:compound",
       "children": [
         {
-          "tag": "forge:crops/wheat"
+          "tag": "c:crops/wheat"
         },
         {
-          "tag": "forge:seeds/wheat"
+          "tag": "c:seeds/wheat"
         }
       ]
     }
