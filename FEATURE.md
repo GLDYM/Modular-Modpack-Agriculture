@@ -44,5 +44,6 @@ youkaisfeasts > farmersdelight > kaleidoscope_tavern > tsuki
 ## Recipe Fix
 
 - Fix mynethersdelight:crafting/raw_stuffed_hoglin_from_kaleidoscope from Kaleidoscope Nether
+- Fix series built-in datapack bugs
 
 ## Language Change
