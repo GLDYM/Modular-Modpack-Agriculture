@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "rusticdelight:calamari_roll_ingredients"
+    },
+    {
+      "tag": "rusticdelight:calamari_roll_ingredients"
+    },
+    {
+      "item": "kaleidoscope_cookery:cooked_rice"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "rusticdelight:calamari_roll"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rusticdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ]
+}

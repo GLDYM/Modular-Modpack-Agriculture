@@ -32,4 +32,4 @@ def format_json_files(root_dir):
                 except Exception as e:
                     print(f"Error formatting {file_path}: {e}")
 
-format_json_files(".pakku")
+format_json_files("../.pakku")

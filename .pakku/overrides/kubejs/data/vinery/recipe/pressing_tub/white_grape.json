@@ -1,0 +1,17 @@
+{
+  "type": "kaleidoscope_tavern:pressing_tub",
+  "fluid": "kaleidoscope_tavern:white_grape_juice",
+  "ingredient": {
+    "item": "vinery:white_grape"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "vinery"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_tavern"
+    }
+  ]
+}

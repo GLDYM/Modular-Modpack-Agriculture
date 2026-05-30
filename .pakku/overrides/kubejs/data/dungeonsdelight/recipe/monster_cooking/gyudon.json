@@ -1,0 +1,40 @@
+{
+  "type": "dungeonsdelight:monster_cooking",
+  "experience": 2,
+  "ingredients": [
+    {
+      "item": "dungeonsdelight:gritty_flesh"
+    },
+    {
+      "tag": "dungeonsdelight:sculk_cheese"
+    },
+    {
+      "item": "kaleidoscope_cookery:cooked_rice"
+    },
+    {
+      "item": "kaleidoscope_cookery:fried_egg"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "recipe_book_tab": "monster_meals",
+  "result": {
+    "count": 1,
+    "id": "dungeonsdelight:gyudon"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "dungeonsdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ]
+}

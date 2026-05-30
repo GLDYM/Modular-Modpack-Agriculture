@@ -1,0 +1,46 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:grain"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    },
+    {
+      "item": "immortalers_delight:alfalfa"
+    },
+    {
+      "item": "immortalers_delight:alfalfa"
+    },
+    {
+      "item": "immortalers_delight:alfalfa"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "tag": "forge:crops/wheat"
+        },
+        {
+          "tag": "forge:seeds/wheat"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "id": "immortalers_delight:large_column"
+  },
+  "experience": 0.35,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immortalers_delight"
+    }
+  ]
+}

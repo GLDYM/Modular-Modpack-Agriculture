@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "rusticdelight:cherry_blossom_ingredients"
+    },
+    {
+      "tag": "rusticdelight:cherry_blossom_ingredients"
+    },
+    {
+      "item": "kaleidoscope_cookery:cooked_rice"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "rusticdelight:cherry_blossom_roll"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rusticdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ]
+}

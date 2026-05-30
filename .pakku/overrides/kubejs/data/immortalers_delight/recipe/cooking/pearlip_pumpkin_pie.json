@@ -1,0 +1,47 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "immortalers_delight:pearlip"
+    },
+    {
+      "item": "immortalers_delight:pearlip"
+    },
+    {
+      "item": "immortalers_delight:pearlip"
+    },
+    {
+      "item": "immortalers_delight:pearlip"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minecraft:sugar"
+        },
+        {
+          "tag": "forge:sugar"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "immortalers_delight:pearlip_pumpkin_pie"
+  },
+  "experience": 0.35,
+  "cookingtime": 200,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immortalers_delight"
+    }
+  ]
+}

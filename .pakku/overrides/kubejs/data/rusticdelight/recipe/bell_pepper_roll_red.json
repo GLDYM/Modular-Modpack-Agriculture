@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rusticdelight:bell_pepper_slice_red"
+    },
+    {
+      "item": "rusticdelight:bell_pepper_slice_red"
+    },
+    {
+      "item": "kaleidoscope_cookery:cooked_rice"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "rusticdelight:bell_pepper_roll_red"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rusticdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ]
+}

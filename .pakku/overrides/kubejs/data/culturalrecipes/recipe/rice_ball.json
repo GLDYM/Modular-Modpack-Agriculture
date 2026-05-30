@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "kaleidoscope_cookery:cooked_rice"
+    },
+    {
+      "item": "kaleidoscope_cookery:cooked_rice"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "tag": "culturaldelights:raw_salmons"
+    }
+  ],
+  "result": {
+    "count": 5,
+    "id": "culturaldelights:rice_ball"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "culturaldelights"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ]
+}

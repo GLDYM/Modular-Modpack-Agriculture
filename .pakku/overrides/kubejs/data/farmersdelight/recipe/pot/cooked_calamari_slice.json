@@ -1,0 +1,21 @@
+{
+  "type": "kaleidoscope_cookery:pot",
+  "ingredients": [
+    {
+      "item": "rusticdelight:calamari_slice"
+    }
+  ],
+  "result": {
+    "id": "rusticdelight:cooked_calamari_slice"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rusticdelight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "culturaldelights:tortilla"
+    },
+    {
+      "tag": "culturaldelights:cooked_beefs"
+    },
+    {
+      "tag": "culturaldelights:avocados"
+    },
+    {
+      "item": "kaleidoscope_cookery:cooked_rice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "culturaldelights:beef_burrito"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "culturaldelights"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ]
+}
