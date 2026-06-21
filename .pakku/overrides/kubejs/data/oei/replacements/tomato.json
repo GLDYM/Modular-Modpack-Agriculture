@@ -131,5 +131,18 @@
       "farmersdelight:cooked_chicken_cuts"
     ],
     "resultItems": "kaleidoscope_cookery:cooked_cut_small_meats"
+  },
+  {
+    "matchItems": [
+      "vintagedelight:cucumber"
+    ],
+    "resultItems": "youkaisfeasts:cucumber"
+  },
+  {
+    "matchItems": [
+      "casualnessdelight:capsicum",
+      "vintagedelight:ghost_pepper"
+    ],
+    "resultItems": "kaleidoscope_cookery:red_chili"
   }
 ]
