@@ -1,0 +1,13 @@
+{
+  "type": "tsuki:stone_mortar",
+  "experience": 0,
+  "ingredient": {
+    "item": "tsuki:brown_rice"
+  },
+  "recipeTime": 200,
+  "results": [
+    {
+      "id": "kaleidoscope_cookery:rice"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
     "name": "Modular Modpack Agriculture",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "projects": {
         "lodestone": {
             "side": "BOTH"

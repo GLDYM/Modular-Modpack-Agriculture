@@ -2,23 +2,52 @@
 
 ## Unify
 
-youkaisfeasts > farmersdelight > kaleidoscope_tavern > tsuki
+### Rice
 
-- tomato -> farmersdelight:tomato
+- F: Farmer's Delight
+- K: Kaleidoscope_cookery
+- T: Tsuki
+- C: Create
+
+Now Rice Process is:
+
+K:Wild Rice --> K:Crop ---> K:Rice Panicle + K:Wild Rice --F:Cut or T:Cut--> K:Wild Rice + T:Straw --K:Millstone or T:Mortar or C:Millstone--> T:Brown Rice --Millstone--> K:Rice
+
+K:Wild Rice could be gained from F:Wild Rice or Grass.
+
+- Change Wild Rice Name
+  - assets/kaleidoscope_cookery/lang/
+- Change Loot Table
+  - data/farmersdelight/loot_table/blocks/wild_rice.json
+- Cutting Recipe 
+  - data/farmersdelight/recipe/cutting/rice_panicle.json
+  - data/farmersdelight/recipe/cutting/wild_rice.json
+- Millstone
+  - data/kaleidoscope_cookery/recipe/integration/create/milling/
+  - data/kaleidoscope_cookery/recipe/millstone/
+  - data/tsuki/recipe/stone_mortar/
+
+### Misc
+
+youkaisfeasts  > kaleidoscope > farmersdelight > tsuki
+
+- tomato -> kaleidoscope_cookery:tomato
 - lemon -> tsuki:lemon
 - soybean -> youkaisfeasts:soybean
 - matcha, mocha -> youkaisfeasts:matcha
-- tomato_seed -> farmersdelight:tomato_seeds
+- tomato_seed -> kaleidoscope_cookery:tomato_seeds
 - cabbage -> farmersdelight:cabbage
 - sliced_cabbage -> farmersdelight:cabbage_leaf
-- rice -> farmersdelight:rice
-- cooked_rice -> farmersdelight:cooked_rice
+- rice -> kaleidoscope_cookery:rice
+- cooked_rice -> kaleidoscope_cookery:cooked_rice
+- rice_panicle --> kaleidoscope_cookery:rice_panicle
+- rice_seeds --> kaleidoscope_cookery:wild_rice
 - whole_wheat_flour, flour -> tsuki:flour
-- wheat_dough -> farmersdelight:wheat_dough
+- wheat_dough ->kaleidoscope_cookery:raw_dough
 - grape -> kaleidoscope_tavern:grape
 - grape_green -> kaleidoscope_tavern:green_grape
 - green_tea_leaves -> youkaisfeasts:green_tea_leaves
-- pasta -> farmersdelight:raw_pasta
+- pasta -> kaleidoscope_cookery:raw_noodles
 - pineapple -> youkaisfeasts:redbean
 - tofu -> youkaisfeasts:tofu
 

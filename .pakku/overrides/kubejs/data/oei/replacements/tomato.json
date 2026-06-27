@@ -1,11 +1,11 @@
 [
   {
     "matchItems": [
-      "kaleidoscope_cookery:tomato",
+      "farmersdelight:tomato",
       "bakeries:tomato",
       "tsuki:tomato"
     ],
-    "resultItems": "farmersdelight:tomato"
+    "resultItems": "kaleidoscope_cookery:tomato"
   },
   {
     "matchItems": [
@@ -28,10 +28,10 @@
   },
   {
     "matchItems": [
-      "kaleidoscope_cookery:tomato_seed",
+      "farmersdelight:tomato_seeds",
       "tsuki:tomato_seeds"
     ],
-    "resultItems": "farmersdelight:tomato_seeds"
+    "resultItems": "kaleidoscope_cookery:tomato_seed"
   },
   {
     "matchItems": [
@@ -47,17 +47,29 @@
   },
   {
     "matchItems": [
-      "kaleidoscope_cookery:rice",
+      "farmersdelight:rice",
       "tsuki:rice"
     ],
-    "resultItems": "farmersdelight:rice"
+    "resultItems": "kaleidoscope_cookery:rice"
   },
   {
     "matchItems": [
-      "kaleidoscope_cookery:cooked_rice",
+      "farmersdelight:rice_panicle"
+    ],
+    "resultItems": "kaleidoscope_cookery:rice_panicle"
+  },
+  {
+    "matchItems": [
+      "tsuki:rice_seeds"
+    ],
+    "resultItems": "kaleidoscope_cookery:wild_rice"
+  },
+  {
+    "matchItems": [
+      "farmersdelight:cooked_rice",
       "tsuki:rice_cooked"
     ],
-    "resultItems": "farmersdelight:cooked_rice"
+    "resultItems": "kaleidoscope_cookery:cooked_rice"
   },
   {
     "matchItems": [
@@ -71,9 +83,9 @@
       "create:dough",
       "tsuki:dough",
       "bakeries:whole_wheat_dough",
-      "kaleidoscope_cookery:raw_dough"
+      "farmersdelight:wheat_dough"
     ],
-    "resultItems": "farmersdelight:wheat_dough"
+    "resultItems": "kaleidoscope_cookery:raw_dough"
   },
   {
     "matchItems": [
@@ -97,10 +109,10 @@
   },
   {
     "matchItems": [
-      "kaleidoscope_cookery:raw_noodles",
+      "farmersdelight:raw_pasta",
       "tsuki:pasta_raw"
     ],
-    "resultItems": "farmersdelight:raw_pasta"
+    "resultItems": "kaleidoscope_cookery:raw_noodles"
   },
   {
     "matchItems": [

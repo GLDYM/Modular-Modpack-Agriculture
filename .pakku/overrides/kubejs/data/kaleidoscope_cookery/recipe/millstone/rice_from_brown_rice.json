@@ -1,0 +1,10 @@
+{
+  "type": "kaleidoscope_cookery:millstone",
+  "ingredient": {
+    "tag": "tsuki:rice/brown"
+  },
+  "result": {
+    "count": 1,
+    "id": "kaleidoscope_cookery:rice"
+  }
+}
